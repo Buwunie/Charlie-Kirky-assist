@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Bot Play",
+        "description": "A botplay for people who lack skill.",
+        "save": "botplay_enabled",
+        "type": "bool",
+        "value": true
+    },
+    {
+        "name": "Bot Play Rating",
+        "description": "Which rating Bot Play always hits on its own, without you pressing anything. Humanized plays almost perfectly but deliberately misses notes that come too fast for a human to actually hit.",
+        "save": "botplay_rating",
+        "type": "string",
+        "options": ["Sick!", "Humanized", "Good", "Bad", "Shit!", "Random"],
+        "value": "Sick!"
+    },
+    {
+        "name": "Big Assist",
+        "description": "An option for newbs, lol",
+        "save": "bigassist_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Big Assist Rating",
+        "description": "Any key you press, roughly on time, instantly becomes this rating.",
+        "save": "bigassist_rating",
+        "type": "string",
+        "options": ["Sick!", "Good", "Bad", "Shit!", "Random"],
+        "value": "Sick!"
+    },
+    {
+        "name": "Hold Key",
+        "description": "Hold down an arrow while a bunch of notes are coming and every note on that arrow gets hit automatically for as long as you hold it.",
+        "save": "holdkey_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Hold Key Rating",
+        "description": "Which rating the notes get while you're holding the key down.",
+        "save": "holdkey_rating",
+        "type": "string",
+        "options": ["Sick!", "Good", "Bad", "Shit!"],
+        "value": "Sick!"
+    },
+    {
+        "name": "Easy Double Notes",
+        "description": "Press just one key in a chord (two notes, three, whatever) and every note in it gets hit at once.",
+        "save": "easydouble_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Easy Double Notes Rating",
+        "description": "Which rating the extra notes in the chord get.",
+        "save": "easydouble_rating",
+        "type": "string",
+        "options": ["Sick!", "Good", "Bad", "Shit!", "Random"],
+        "value": "Sick!"
+    },
+    {
+        "name": "Fake Keyboard",
+        "description": "For botplay.",
+        "save": "fakekeyboard_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Fake Keyboard Color",
+        "description": "Color of the fake keyboard's keys.",
+        "save": "fakekeyboard_color",
+        "type": "string",
+        "options": ["White", "Black"],
+        "value": "White"
+    },
+    {
+        "name": "Fake Keyboard Size",
+        "description": "How big the fake keyboard is on screen.",
+        "save": "fakekeyboard_size",
+        "type": "percent",
+        "min": 0.4,
+        "max": 1.5,
+        "step": 0.05,
+        "decimals": 2,
+        "value": 0.75
+    },
+    {
+        "name": "Fake Keyboard Position",
+        "description": "Downscroll keeps it at the top, Upscroll moves it to the bottom.",
+        "save": "fakekeyboard_scroll",
+        "type": "string",
+        "options": ["Downscroll", "Upscroll"],
+        "value": "Downscroll"
+    },
+    {
+        "name": "No Misses",
+        "description": "Are we seriously? bruh",
+        "save": "nomisses_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Hitbox Size",
+        "description": "Makes the note hitbox bigger so you miss less. 100% = normal timing, adjust as you like.",
+        "save": "hitbox_size",
+        "type": "percent",
+        "min": 0.5,
+        "max": 3.0,
+        "step": 0.1,
+        "decimals": 2,
+        "value": 1.5
+    },
+    {
+        "name": "Credits",
+        "description": "Shows who made this mod on screen.",
+        "save": "credits_enabled",
+        "type": "bool",
+        "value": false
+    },
+    {
+        "name": "Show On-Screen Text",
+        "description": "Shows the text 'Botplay: ON' in the corner while Bot Play is active.",
+        "save": "botplay_show_text",
+        "type": "bool",
+        "value": false
+    }
+]
